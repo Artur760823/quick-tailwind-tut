@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.button{
+    @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wilder;
+}
+
+.card{
+    @apply overflow-hidden bg-white rounded shadow-md relative;
+}
+
+.badge{
+    @apply bg-amber-100 text-gray-700 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-1 mt-1;
+}
+
